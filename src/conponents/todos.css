@@ -1,0 +1,28 @@
+
+
+.todo_container >li {
+    animation-name: right_left;
+    animation-duration: 4s;
+
+}
+@keyframes right_left {
+  0%{
+      right:-100%;
+  }
+  25%{
+      right:0%;
+  }
+
+  100%{
+    left: 0%;
+  }
+
+}
+.todo_container{
+    padding:5px;
+}
+
+span:hover {
+    color: blue;
+
+}
